@@ -1,0 +1,69 @@
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #84a98c;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #2f3e46;
+    font-weight: bold;
+}
+
+h2{
+    /* font-size: 1.6vw; */
+    font-size: 1rem;
+    padding: 3%;
+    color: #2f3e46;
+}
+
+h3{
+    /* font-size: 1.2vw; */
+    font-size: 0.9rem;
+    color: #2f3e46;
+}
+
+.cards{
+    /* width: 16vw; */
+    width: 13rem;
+    height: 100%;
+    text-align: center;
+    border: 1.5px solid #354f52;
+    border-radius: 5px;
+    /* margin: 3%; */
+    margin: 3rem;
+    box-shadow:8px 5px 2px #354f52;
+    background-color: white;
+}
+
+.cards-header{
+    max-height: 25%;
+}
+
+.cards-img{
+    height: 50%;
+}
+
+.cards-footer{
+    height: 25%;
+}
+
+img{
+    align-items: center;
+    height: 15vh;
+    max-width: 100%;
+}
+
+p{
+    padding-right: 5%;
+    text-align: right;
+    /* font-size: 1vw; */
+    font-size: 0.9rem;
+}
